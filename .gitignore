@@ -3,9 +3,12 @@
 ## Build generated
 build/
 DerivedData/
+xcuserdata
 
 Example/Demo1-not library/Pods/
+Example/Demo1-not library/Podfile.lock
 Example/Demo2-CreditCardFormLibarary/Pods/
+Example/Demo2-CreditCardFormLibarary/Podfile.lock
 
 CreditCardFormTests/
 
