@@ -351,7 +351,7 @@ public class CreditCardFormView : UIView {
                           completion: nil)
     }
     
-    public func paymentCardTextFieldDidChange(cardNumber: String? = "", expirationYear: UInt, expirationMonth: UInt, cvc: String? = "") {
+    @objc public func paymentCardTextFieldDidChange(cardNumber: String? = "", expirationYear: UInt, expirationMonth: UInt, cvc: String? = "") {
         self.cardNumber.text = cardNumber
         
         self.expireDate.text = NSString(format: "%02ld", expirationMonth) as String + "/" + (NSString(format: "%02ld", expirationYear) as String)
